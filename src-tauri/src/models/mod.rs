@@ -1,0 +1,9 @@
+pub mod album;
+pub mod artist;
+pub mod music_folder;
+pub mod page;
+pub mod playlist;
+pub mod scan;
+pub mod song;
+pub mod song_folder;
+pub mod statistics;

@@ -1,0 +1,37 @@
+@import './shadcn.css';
+@import 'shadcn/tailwind.css';
+
+@source './**/*.{ts,tsx}';
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@theme {
+  --animate-spin: spin 30s linear infinite;
+}
+
+@theme inline {
+  --height-titlebar: 52px;
+  --height-statusbar: 80px;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  [aria-disabled='true'] {
+    @apply pointer-events-none opacity-50;
+  }
+}
+
+@utility link {
+  @apply focus-within:text-blue-500 hover:text-blue-500;
+  @apply transition-colors;
+}
+
+@utility gap-* {
+  gap: --value('inherit', 'initial', 'unset');
+}
