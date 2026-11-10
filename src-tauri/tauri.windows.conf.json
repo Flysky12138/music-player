@@ -1,0 +1,17 @@
+{
+  "identifier": "com.ovo.music-player",
+  "app": {
+    "windows": [
+      {
+        "title": "Music Player",
+        "minWidth": 1000,
+        "minHeight": 600,
+        "resizable": true,
+        "fullscreen": false,
+        "center": true,
+        "decorations": false,
+        "transparent": true
+      }
+    ]
+  }
+}

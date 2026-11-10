@@ -1,0 +1,6 @@
+{
+  "identifier": "com.ovo.music-player",
+  "bundle": {
+    "targets": ["dmg"]
+  }
+}

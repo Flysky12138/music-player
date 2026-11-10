@@ -1,0 +1,18 @@
+{
+  "files.eol": "\n",
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.toml": "ini"
+  },
+  "files.autoSave": "onFocusChange",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "json.schemaDownload.trustedDomains": {
+    "https://ui.shadcn.com": true
+  }
+}
